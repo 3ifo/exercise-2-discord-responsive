@@ -1,0 +1,315 @@
+/* Remember to download Noto Sans and Montserrat fonts from Google Fonts: https://fonts.google.com/ */
+
+:root {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.extra-bold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+.central-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 6rem 8rem;
+}
+.central-section:nth-child(odd) {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#big-article > .central-section:nth-child(even) {
+  background-color: #f6f6f6;
+}
+
+#big-article > .central-section:nth-child(4) {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: "raleway";
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+p {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.bottoni {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  color: white;
+  border-radius: 28px;
+  font-size: 20px;
+  background-color: #5865f2;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.bottoni:hover {
+  box-shadow: 1px 4px 2px 4px rgba(85, 84, 84, 0.26);
+  background-color: #5865f2c2;
+}
+
+#botton {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.8rem;
+}
+
+#immaginegrande {
+  width: 1200px;
+  margin-top: -4rem;
+}
+
+#download {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+#footer-section {
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+  padding: 3em;
+  background-color: #23272a;
+}
+
+#footer-section * {
+  list-style: none;
+  text-decoration: none;
+}
+
+#footer-section ul {
+  color: #5865f2;
+  font-size: 15px;
+}
+
+#footer-section ul li {
+  padding-top: 15px;
+}
+
+#footer-section ul a {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#footer-section ul a:hover {
+  text-decoration: underline;
+}
+#container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #23272a;
+  padding: 40px 30px;
+  border-top: 1px solid #5865f2;
+  margin: 0 9em;
+}
+
+footer {
+  background-color: #23272a;
+}
+
+#btn {
+  background-color: #5865f2;
+  border: none;
+  color: white;
+  border-radius: 40px;
+  padding: 10px 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+select {
+  border: none;
+  outline: none;
+  width: 5em;
+  background-color: #23272a;
+  color: white;
+}
+
+#social {
+  padding: 20px 10px;
+}
+
+#socialimg > img {
+  padding-top: 30px;
+  padding-right: 10px;
+  margin: 4px 5px;
+  width: 35px;
+}
+
+header {
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%;
+  background-color: #404eed;
+  padding: 1em 5em;
+  background-image: url(./img/hero-bg.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 200px auto 200px;
+  align-items: center;
+  justify-items: center;
+  width: auto;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+}
+header nav ul a {
+  padding: 0 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+header nav ul a:hover {
+  text-decoration: underline;
+}
+
+#logohead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+#texthead {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 6em;
+  text-align: center;
+  color: white;
+  width: 900px;
+  margin: auto;
+  position: relative;
+}
+
+#texthead div {
+  padding-top: 30px;
+}
+
+#login {
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  border-radius: 40px;
+  padding: 10px 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.buttoncont {
+  padding: 105px 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.btnhead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  color: black;
+  border-radius: 28px;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btnhead:hover {
+  box-shadow: 1px 4px 2px 4px rgba(85, 84, 84, 0.289);
+  color: #404eed;
+}
+
+.btnhead1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  color: white;
+  border-radius: 28px;
+  font-size: 20px;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btnhead1:hover {
+  box-shadow: 1px 4px 2px 4px rgba(85, 84, 84, 0.341);
+  background-color: #23272a;
+}
+
+#perdio {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 0;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.img1 {
+  position: absolute;
+  top: 307px;
+  left: -200px;
+  z-index: 1;
+}
+
+.img2 {
+  position: absolute;
+  top: 298px;
+  right: -170px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
