@@ -1,0 +1,25 @@
+@media (max-width: 500px) {
+  header {
+    padding: 1em;
+  }
+  nav {
+    grid-template-columns: auto auto auto;
+  }
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #texthead {
+    width: 100%;
+    padding: 2em;
+  }
+  .buttoncont {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .central-section {
+    padding: 4rem;
+  }
+}

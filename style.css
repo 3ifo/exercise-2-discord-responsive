@@ -71,7 +71,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 16px 32px;
+  padding: 0.8em 1.6em;
   color: white;
   border-radius: 28px;
   font-size: 20px;
@@ -122,7 +122,7 @@ p {
 }
 
 #footer-section ul li {
-  padding-top: 15px;
+  padding-top: 1em;
 }
 
 #footer-section ul a {
@@ -138,7 +138,7 @@ p {
   display: flex;
   justify-content: space-between;
   background-color: #23272a;
-  padding: 40px 30px;
+  padding: 2.5em 2em;
   border-top: 1px solid #5865f2;
   margin: 0 9em;
 }
@@ -152,7 +152,7 @@ footer {
   border: none;
   color: white;
   border-radius: 40px;
-  padding: 10px 16px;
+  padding: 0.6em 1em;
   font-weight: 500;
   cursor: pointer;
 }
@@ -165,14 +165,14 @@ select {
 }
 
 #social {
-  padding: 20px 10px;
+  padding: 1.11em 0.55em;
 }
 
 #socialimg > img {
-  padding-top: 30px;
-  padding-right: 10px;
-  margin: 4px 5px;
-  width: 35px;
+  padding-top: 1.66em;
+  padding-right: 0.56em;
+  margin: 0.22em 0.28em;
+  width: 2em;
 }
 
 header {
@@ -201,7 +201,7 @@ header nav ul {
   justify-content: center;
 }
 header nav ul a {
-  padding: 0 20px;
+  padding: 0 1em;
   color: white;
   font-size: 14px;
   font-weight: 600;
@@ -225,13 +225,13 @@ header nav ul a:hover {
   padding-top: 6em;
   text-align: center;
   color: white;
-  width: 900px;
+  width: 50em;
   margin: auto;
   position: relative;
 }
 
 #texthead div {
-  padding-top: 30px;
+  padding-top: 1.65em;
 }
 
 #login {
@@ -239,7 +239,7 @@ header nav ul a:hover {
   border: none;
   color: black;
   border-radius: 40px;
-  padding: 10px 16px;
+  padding: 10px 1em;
   font-weight: 500;
   cursor: pointer;
 }
@@ -248,14 +248,14 @@ header nav ul a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 25px;
+  gap: 1.5em;
 }
 
 .btnhead {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 16px 32px;
+  padding: 0.8em 1.6em;
   color: black;
   border-radius: 28px;
   font-size: 20px;
@@ -274,7 +274,7 @@ header nav ul a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 16px 32px;
+  padding: 0.8em 1.6em;
   color: white;
   border-radius: 28px;
   font-size: 20px;
