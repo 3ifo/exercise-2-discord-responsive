@@ -1,25 +1,33 @@
-@media (max-width: 500px) {
-  header {
-    padding: 1em;
-  }
-  nav {
-    grid-template-columns: auto auto auto;
-  }
-  header nav ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  #texthead {
-    width: 100%;
-    padding: 2em;
-  }
-  .buttoncont {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
+@media screen and (max-width: 480px) and (min-width: 300px) {
   .central-section {
-    padding: 4rem;
+    width: 100%;
+    display: block;
+    padding: 2rem 5rem;
+  }
+  h2 {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 20px;
+    width: 100%;
+  }
+  br {
+    display: none;
+  }
+  p {
+    font-size: 18px;
+    width: 100%;
+  }
+  .central-section:nth-child(odd) {
+    width: 100%;
+    display: block;
+    padding: 2rem 5rem;
+  }
+
+  h3 {
+    font-size: 20px;
+    width: 100%;
   }
 }
